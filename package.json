@@ -1,0 +1,30 @@
+{
+  "name": "authenticationwithjwtnodejs",
+  "version": "1.0.0",
+  "description": "Implementation of JWT Process",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritikgoyal133/authenticationWithJWTNodejs.git"
+  },
+  "author": "Ritik Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritikgoyal133/authenticationWithJWTNodejs/issues"
+  },
+  "homepage": "https://github.com/ritikgoyal133/authenticationWithJWTNodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
